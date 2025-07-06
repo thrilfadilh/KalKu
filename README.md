@@ -1,2 +1,2 @@
 # KalKu
-KalKu: Kalkulator interaktif AI-optimized
+KalKu: An AI-Optimized Interactive Calculator Powered by IBM Granite.
