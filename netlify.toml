@@ -1,4 +1,7 @@
+[build]
+  publish = "."
+  command = ""
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index_KalKu.html"
+  status = 200
