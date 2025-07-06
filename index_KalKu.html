@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulatorku</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style_KalKu.css"> 
+<body>
+  <div id="mode-toggle-container">
+    <button id="mode-toggle" aria-label="Toggle dark/light mode">🌙</button>
+  </div>
+  <div id="app-container">
+    <div id="logo-container">
+      <img src="logo.png" alt="Kalkulatorku Logo" id="kalku-logo">
+    </div>
+    <div id="calculator-container">
+      <div id="canvas-holder">
+
+      </div>
+      <div id="button-panel">
+        <div class="button-row">
+          <button class="crystal-btn" data-value="7">7</button>
+          <button class="crystal-btn" data-value="8">8</button>
+          <button class="crystal-btn" data-value="9">9</button>
+          <button class="crystal-btn op-btn" data-value="/">÷</button>
+        </div>
+        <div class="button-row">
+          <button class="crystal-btn" data-value="4">4</button>
+          <button class="crystal-btn" data-value="5">5</button>
+          <button class="crystal-btn" data-value="6">6</button>
+          <button class="crystal-btn op-btn" data-value="*">×</button>
+        </div>  
+        <div class="button-row">
+          <button class="crystal-btn" data-value="1">1</button>
+          <button class="crystal-btn" data-value="2">2</button>
+          <button class="crystal-btn" data-value="3">3</button>
+          <button class="crystal-btn op-btn" data-value="-">−</button>
+        </div>
+        <div class="button-row">
+          <button class="crystal-btn" data-value="0">0</button>
+          <button class="crystal-btn" data-value="C">C</button>
+          <button class="crystal-btn" data-value="=">=</button>
+          <button class="crystal-btn op-btn" data-value="+">+</button>
+        </div>
+      </div>
+    </div>
+    <aside id="history-sidebar">
+      <h2>History</h2>
+      <div id="history-list">
+
+      </div>
+    </aside>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+  <script src="script_KalKu.js"></script>
+</body>
+</html>
